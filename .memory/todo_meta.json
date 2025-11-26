@@ -3,44 +3,58 @@
     "Coordinator": {
       "1": {
         "id": "1",
-        "content": "Analyse et identification des fichiers sources",
-        "details": "Identifier dans le code source React/TypeScript les composants responsables des problèmes UX/UI identifiés : statistiques '0+', images avec filigranes, contrastes, alignements, etc.",
-        "status": "completed",
+        "content": "Test du parcours utilisateur général",
+        "details": "Tester la navigation générale : page d'accueil, liens du menu principal, structure de navigation, breadcrumb, footer, liens sociaux",
+        "status": "pending",
         "priority": "high"
       },
       "2": {
         "id": "2",
-        "content": "Correction des problèmes critiques",
-        "details": "1. Remplacer les statistiques '0+' par des données réelles ou 'Bientôt disponible'\n2. Remplacer les images avec filigranes par des images libres de droits\n3. Améliorer les contrastes de texte sur images\n4. Corriger la faute de frappe 'Abidian' → 'Abidjan'",
-        "status": "completed",
+        "content": "Test du parcours de recherche de propriétés",
+        "details": "1. Tester le formulaire de recherche principal\n2. Valider les filtres (ville, type de bien, prix, superficie)\n3. Vérifier l'affichage des résultats\n4. Tester la navigation dans les listings\n5. Valider les pages de détail des propriétés\n6. Tester les interactions (favoris, contact)",
+        "status": "pending",
         "priority": "high"
       },
       "3": {
         "id": "3",
-        "content": "Correction des problèmes d'interface",
-        "details": "1. Standardiser les couleurs de titres dans les cartes\n2. Optimiser la navigation du carrousel\n3. Labelliser les boutons d'icônes\n4. Améliorer les alignements et espacements du formulaire de recherche",
+        "content": "Test du parcours d'authentification complet",
+        "details": "1. Parcours d'inscription (email, téléphone, réseaux sociaux)\n2. Processus de vérification OTP\n3. Parcours de connexion\n4. Récupération de mot de passe\n5. Gestion de session utilisateur\n6. Déconnexion",
         "status": "pending",
-        "priority": "medium"
+        "priority": "high"
       },
       "4": {
         "id": "4",
-        "content": "Amélioration de l'accessibilité",
-        "details": "1. Améliorer les contrastes selon WCAG AA\n2. Rendre les éléments de contact cliquables (tel:, mailto:)\n3. Ajouter les états de survol et de focus\n4. Implémenter des labels pour l'accessibilité",
+        "content": "Test des nouveaux parcours de support",
+        "details": "1. Tester les pages nouvellement créées : Contact, Aide, FAQ\n2. Valider les formulaires de contact\n3. Tester la navigation dans les guides d'aide\n4. Vérifier la recherche dans les FAQ\n5. Tester l'interactivité des pages de support",
         "status": "pending",
-        "priority": "medium"
+        "priority": "high"
       },
       "5": {
         "id": "5",
-        "content": "Tests des parcours utilisateur",
-        "details": "1. Tester la navigation complète de l'application\n2. Valider le parcours d'inscription/connexion\n3. Tester la recherche de propriétés\n4. Valider la responsivité sur mobile/tablet\n5. Tester l'accessibilité au clavier",
-        "status": "completed",
+        "content": "Test du parcours d'ajout de propriété",
+        "details": "1. Accéder à la page 'Je loue mon bien'\n2. Tester le formulaire d'ajout de propriété\n3. Valider l'upload d'images\n4. Tester la validation des données\n5. Vérifier le processus de soumission\n6. Tester la gestion des erreurs",
+        "status": "pending",
         "priority": "medium"
       },
       "6": {
         "id": "6",
-        "content": "Plan de correction critique pour mise en production",
-        "details": "1. Bloquer le déploiement en production (état actuel non viable)\n2. Corriger la navigation principale (67% des liens défaillants)\n3. Réparer l'authentification (redirections défaillantes)\n4. Optimiser la responsivité mobile\n5. Résoudre les erreurs JavaScript et API Supabase\n6. Créer les pages manquantes (Contact, Aide, FAQ)\n7. Déployer sur domaine de production",
-        "status": "completed",
+        "content": "Test des parcours mobile et responsive",
+        "details": "1. Navigation tactile sur mobile\n2. Parcours de recherche sur smartphone\n3. Formulaires sur écran tactile\n4. Menu hamburger mobile\n5. Performance sur différents appareils\n6. Test d'accessibilité mobile",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "7": {
+        "id": "7",
+        "content": "Test des parcours de conversion",
+        "details": "1. Parcours de contact propriétaire\n2. Parcours de demande de visite\n3. Parcours de favorites/wishlist\n4. Parcours de partage de propriétés\n5. Appels d'action (CTA) principaux\n6. Funnel de conversion complet",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "8": {
+        "id": "8",
+        "content": "Audit de performance et erreurs",
+        "details": "1. Temps de chargement des pages\n2. Erreurs JavaScript dans la console\n3. Performance des formulaires\n4. Erreurs réseau/API\n5. Optimisation SEO de base\n6. Test d'accessibilité clavier",
+        "status": "pending",
         "priority": "low"
       }
     }
